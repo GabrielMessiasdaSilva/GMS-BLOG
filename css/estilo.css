@@ -117,3 +117,31 @@ h3{
     
 
 }
+
+@media screen and (max-width: 768px) {
+    #area-cabecalho {
+        width: 100%;
+    }
+
+    #area-menu {
+        display: block;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    #area-principal {
+        width: 100%; /* Ou outra largura adequada para telas menores */
+    }
+
+    #areas-postagens, #area-lateral {
+        width: 100%; /* Ou outra largura adequada para telas menores */
+        float: none; /* Redefina a flutuação */
+    }
+
+    .postagem, .conteudo-lateral {
+        width: 100%; /* Ou outra largura adequada para telas menores */
+    }
+}
